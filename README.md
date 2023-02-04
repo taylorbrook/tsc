@@ -1,2 +1,4 @@
-# tsc
-The Tensed Computer Improviser
+# The Tensed Computer Improviser
+
+Computer Improviser in MAX
+Son of the Scuffed Computer Improviser (https://www.taylorbrook.info/sci)
