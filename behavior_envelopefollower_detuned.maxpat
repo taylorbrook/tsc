@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-343",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 442.800000000000068, 394.0, 90.0, 22.0 ],
+					"text" : "r max_dynamic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-342",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 423.0, 365.0, 87.0, 22.0 ],
+					"text" : "r min_dynamic"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -114,7 +138,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -693,6 +717,42 @@
 					"destination" : [ "obj-37", 0 ],
 					"midpoints" : [ 52.0, 183.0, 52.0, 183.0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 3 ],
+					"midpoints" : [ 432.5, 399.0, 357.0, 399.0, 357.0, 417.0, 268.399999999999977, 417.0 ],
+					"order" : 0,
+					"source" : [ "obj-342", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 1 ],
+					"midpoints" : [ 432.5, 399.0, 357.0, 399.0, 357.0, 453.0, 261.0, 453.0, 261.0, 450.0, 229.5, 450.0 ],
+					"order" : 1,
+					"source" : [ "obj-342", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 4 ],
+					"midpoints" : [ 452.300000000000068, 417.0, 288.199999999999989, 417.0 ],
+					"order" : 0,
+					"source" : [ "obj-343", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 2 ],
+					"midpoints" : [ 452.300000000000068, 453.0, 261.0, 453.0, 261.0, 450.0, 250.0, 450.0 ],
+					"order" : 1,
+					"source" : [ "obj-343", 0 ]
 				}
 
 			}

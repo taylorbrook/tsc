@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -947.0, 471.0, 491.0, 581.0 ],
+		"rect" : [ 434.0, 306.0, 493.0, 583.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-343",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 281.899999999999977, 320.0, 90.0, 22.0 ],
+					"text" : "r max_dynamic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-342",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 377.5, 320.0, 87.0, 22.0 ],
+					"text" : "r min_dynamic"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -66,11 +90,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 34.5, 26.0, 30.0, 30.0 ]
 				}
 
@@ -153,7 +177,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 6,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.5, 507.0, 97.0, 22.0 ],
+					"patching_rect" : [ 208.5, 507.0, 142.0, 22.0 ],
 					"text" : "notemessage #1"
 				}
 
@@ -188,7 +212,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.5, 507.0, 89.0, 22.0 ],
+					"patching_rect" : [ 42.5, 507.0, 133.0, 22.0 ],
 					"text" : "s #1_livematch"
 				}
 
@@ -346,6 +370,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 4 ],
+					"source" : [ "obj-342", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 3 ],
+					"source" : [ "obj-343", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"midpoints" : [ 52.0, 216.0, 52.0, 216.0 ],
 					"source" : [ "obj-37", 0 ]
@@ -467,7 +505,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 4 ],
-					"midpoints" : [ 382.0, 498.0, 280.399999999999977, 498.0 ],
+					"midpoints" : [ 382.0, 498.0, 316.399999999999977, 498.0 ],
 					"source" : [ "obj-65", 0 ]
 				}
 
@@ -491,7 +529,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 3 ],
-					"midpoints" : [ 302.0, 492.0, 264.800000000000011, 492.0 ],
+					"midpoints" : [ 302.0, 492.0, 291.800000000000011, 492.0 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -499,7 +537,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 2 ],
-					"midpoints" : [ 259.0, 498.0, 249.199999999999989, 498.0 ],
+					"midpoints" : [ 259.0, 498.0, 267.199999999999989, 498.0 ],
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -528,16 +566,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "notemessage.maxpat",
-				"bootpath" : "Z:/Current Projects/SCI V2/Building for Video",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

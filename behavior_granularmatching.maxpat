@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -680.0, 424.0, 638.0, 468.0 ],
+		"rect" : [ -864.0, 393.0, 638.0, 468.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-343",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 212.5, 300.0, 90.0, 22.0 ],
+					"text" : "r max_dynamic"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
@@ -223,7 +235,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 141.0, 84.0, 22.0 ],
+					"patching_rect" : [ 80.0, 141.0, 129.0, 22.0 ],
 					"text" : "r #1_grainsize"
 				}
 
@@ -232,11 +244,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 60.0, 88.0, 30.0, 30.0 ]
 				}
 
@@ -404,6 +416,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"source" : [ "obj-343", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"midpoints" : [ 89.5, 195.0, 89.5, 195.0 ],
 					"source" : [ "obj-4", 0 ]
@@ -426,16 +445,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "notemessage.maxpat",
-				"bootpath" : "Z:/Current Projects/SCI V2/Building for Video",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
