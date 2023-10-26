@@ -968,6 +968,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-78",
@@ -11213,6 +11214,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -30221,7 +30223,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 607.0, 213.0, 1005.0, 678.0 ],
+														"rect" : [ -1673.0, 339.0, 1003.0, 676.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -37422,7 +37424,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 42.0, 405.0, 638.0, 478.0 ],
+										"rect" : [ -25559.0, -25516.0, 638.0, 478.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -37450,6 +37452,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-85",
@@ -38426,7 +38429,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 42.0, 286.0, 462.0, 805.0 ],
+														"rect" : [ -752.0, 331.0, 460.0, 803.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -41287,7 +41290,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 42.0, 382.0, 353.0, 277.0 ],
+										"rect" : [ -1208.0, 483.0, 351.0, 275.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -43420,7 +43423,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 42.0, 352.0, 954.0, 713.0 ],
+														"rect" : [ -1610.0, 306.0, 952.0, 711.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -43858,7 +43861,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "int" ],
 																	"patching_rect" : [ 94.0, 114.0, 73.0, 22.0 ],
-																	"text" : "random 120"
+																	"text" : "random 121"
 																}
 
 															}
