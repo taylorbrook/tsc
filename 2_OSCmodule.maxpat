@@ -13,6 +13,50 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-5",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 233.0, 319.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-4",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 57.0, 319.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 222.0, 73.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 57.0, 73.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-72",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -338,7 +382,7 @@
                     "patching_rect": [ 267.0, 502.0, 138.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 267.0, 502.0, 138.0, 22.0 ],
-                    "text": "udpsend 127.0.0.1 7005"
+                    "text": "udpsend 127.0.0.1 7000"
                 }
             },
             {
@@ -348,8 +392,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 267.0, 471.0, 89.0, 22.0 ],
-                    "text": "prepend /onset"
+                    "patching_rect": [ 267.0, 471.0, 101.0, 22.0 ],
+                    "text": "prepend /newbeh"
                 }
             },
             {
@@ -405,7 +449,7 @@
                     "patching_rect": [ 98.0, 503.0, 138.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 98.0, 503.0, 138.0, 22.0 ],
-                    "text": "udpsend 127.0.0.1 7004"
+                    "text": "udpsend 127.0.0.1 7000"
                 }
             },
             {
@@ -415,8 +459,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 98.0, 472.0, 104.0, 22.0 ],
-                    "text": "prepend /impNote"
+                    "patching_rect": [ 98.0, 472.0, 105.0, 22.0 ],
+                    "text": "prepend /rhythmic"
                 }
             },
             {
@@ -505,7 +549,7 @@
                     "patching_rect": [ 267.0, 250.0, 138.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 313.0, 251.0, 138.0, 22.0 ],
-                    "text": "udpsend 127.0.0.1 7002"
+                    "text": "udpsend 127.0.0.1 7000"
                 }
             },
             {
@@ -594,7 +638,7 @@
                     "patching_rect": [ 98.0, 251.0, 138.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1141.0, 336.0, 138.0, 22.0 ],
-                    "text": "udpsend 127.0.0.1 7001"
+                    "text": "udpsend 127.0.0.1 7000"
                 }
             },
             {
@@ -625,6 +669,12 @@
             {
                 "patchline": {
                     "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 0 ],
                     "source": [ "obj-20", 0 ]
                 }
             },
@@ -633,6 +683,12 @@
                     "destination": [ "obj-23", 0 ],
                     "midpoints": [ 107.5, 244.0, 107.5, 244.0 ],
                     "source": [ "obj-28", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-39", 0 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
@@ -675,6 +731,12 @@
                 "patchline": {
                     "destination": [ "obj-41", 0 ],
                     "source": [ "obj-39", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-52", 0 ],
+                    "source": [ "obj-4", 0 ]
                 }
             },
             {
@@ -730,6 +792,12 @@
                 "patchline": {
                     "destination": [ "obj-50", 0 ],
                     "source": [ "obj-48", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-46", 0 ],
+                    "source": [ "obj-5", 0 ]
                 }
             },
             {
