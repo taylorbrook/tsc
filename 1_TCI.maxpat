@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 51.0, 101.0, 1139.0, 844.0 ],
+        "rect": [ 51.0, 130.0, 1139.0, 844.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -9776,9 +9776,57 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 205.0, 117.0, 1240.0, 861.0 ],
+                        "rect": [ 205.0, 117.0, 1450.0, 886.0 ],
                         "openinpresentation": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "fontface": 1,
+                                    "id": "obj-376",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 1424.0, 48.0, 162.0, 20.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 1424.0, 46.0, 162.0, 20.0 ],
+                                    "text": "grains behaviors only"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-377",
+                                    "maxclass": "toggle",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "parameter_enable": 0,
+                                    "patching_rect": [ 1399.0, 46.0, 24.0, 24.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "fontface": 1,
+                                    "id": "obj-375",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 1424.5, 18.0, 162.0, 20.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 1425.0, 18.0, 162.0, 20.0 ],
+                                    "text": "slices behaviors only"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-374",
+                                    "maxclass": "toggle",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "parameter_enable": 0,
+                                    "patching_rect": [ 1399.0, 16.0, 24.0, 24.0 ]
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-367",
@@ -17929,8 +17977,8 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1355.0, 532.0, 91.0, 22.0 ],
-                                    "text": "s granmatching"
+                                    "patching_rect": [ 1355.0, 532.0, 107.0, 22.0 ],
+                                    "text": "s granmatchgrains"
                                 }
                             },
                             {
@@ -24300,8 +24348,8 @@
                                                     "numinlets": 0,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
-                                                    "patching_rect": [ 50.0, 100.0, 89.0, 22.0 ],
-                                                    "text": "r granmatching"
+                                                    "patching_rect": [ 50.0, 100.0, 105.0, 22.0 ],
+                                                    "text": "r granmatchgrains"
                                                 }
                                             },
                                             {
@@ -43180,7 +43228,7 @@
                                     "mode": 0,
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 18.0, 28.0, 52.0, 19.0 ],
+                                    "patching_rect": [ 55.5, 38.0, 52.0, 19.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 14.5, 10.0, 717.0, 42.0 ],
                                     "proportion": 0.5
@@ -53530,6 +53578,14 @@
             "obj-129::obj-7": [ "vst~", "vst~", 0 ],
             "obj-212": [ "live.menu[2]", "live.menu", 0 ],
             "obj-222::obj-30": [ "live.menu[3]", "live.menu", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
