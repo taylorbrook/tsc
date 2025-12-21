@@ -2689,7 +2689,7 @@
                     "patching_rect": [ 39.0, 870.9999946117401, 734.0, 33.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 190.0, 23.273132000000032, 740.56665985046, 33.0 ],
-                    "text": "TENSED COMPUTER IMPROVISER v1.22 (2025-12-04)",
+                    "text": "TENSED COMPUTER IMPROVISER v1.22 (2025-12-20)",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "textjustification": 1
                 }
@@ -11259,9 +11259,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 387.0, 182.0, 1112.0, 852.0 ],
+                        "rect": [ 387.0, 182.0, 876.0, 852.0 ],
                         "openinpresentation": 1,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -31640,7 +31639,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 71.5, 613.0, 29.5, 22.0 ],
-                                                                    "text": "7"
+                                                                    "text": "22"
                                                                 }
                                                             },
                                                             {
@@ -39908,7 +39907,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 397.0, 307.2000012397766, 55.0, 22.0 ],
-                                                                    "text": "1670"
+                                                                    "text": "4530"
                                                                 }
                                                             },
                                                             {
@@ -47708,7 +47707,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 373.43174674343663, 704.0, 81.5, 22.0 ],
-                                                    "text": "105.876998"
+                                                    "text": "176.96"
                                                 }
                                             },
                                             {
@@ -47745,7 +47744,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 231.69676403941503, 697.3611127734184, 81.5, 22.0 ],
-                                                    "text": "211.753997"
+                                                    "text": "353.92"
                                                 }
                                             },
                                             {
@@ -50352,7 +50351,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2443.0, 693.9999987959861, 122.0, 49.0 ],
-                    "text": "note 31605.333333 44128. 0.6 1. 0.95 0.41"
+                    "text": "note 394565.079365 394705.4 0.9 1. 0.9 0.93"
                 }
             },
             {
@@ -50463,7 +50462,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2492.9, 462.59997844696045, 50.0, 22.0 ],
-                    "text": "4"
+                    "text": "7"
                 }
             },
             {
@@ -50501,7 +50500,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2443.0, 421.59997694492336, 102.0, 49.0 ],
-                    "text": "note 241000. 240000. 0.6 1. 0.05 0.97"
+                    "text": "note 175000. 176000. 1. 1. 0.8 0.5"
                 }
             },
             {
@@ -50695,7 +50694,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1999.0, 693.9999987959861, 122.0, 49.0 ],
-                    "text": "note 452416. 453930.666667 1. 1. 0.95 0.5"
+                    "text": "note 643552. 647573.333333 1. 1. 0.9 0.5"
                 }
             },
             {
@@ -50806,7 +50805,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2048.9, 466.19998383522034, 50.0, 22.0 ],
-                    "text": "4"
+                    "text": "1"
                 }
             },
             {
@@ -50838,13 +50837,13 @@
             {
                 "box": {
                     "id": "obj-140",
-                    "linecount": 5,
+                    "linecount": 3,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1999.0, 425.19998233318324, 102.0, 76.0 ],
-                    "text": "note 385000. 386000. 0.604636 1.024877 0.05 0.26"
+                    "patching_rect": [ 1999.0, 425.19998233318324, 102.0, 49.0 ],
+                    "text": "note 451000. 452000. 1. 1. 0.8 0.5"
                 }
             },
             {
@@ -50963,7 +50962,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1614.4, 770.0000002980232, 50.0, 22.0 ],
-                    "text": "9"
+                    "text": "1"
                 }
             },
             {
@@ -51001,7 +51000,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1564.5, 693.9999987959861, 122.0, 49.0 ],
-                    "text": "note 223210.666667 225728. 1. 1. 0.9 0.58"
+                    "text": "note 394762.44898 395064.30839 1. 1. 0.9 0.5"
                 }
             },
             {
@@ -51112,7 +51111,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1614.4, 469.7999892234802, 50.0, 22.0 ],
-                    "text": "6"
+                    "text": "4"
                 }
             },
             {
@@ -51150,7 +51149,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1564.5, 428.79998772144313, 130.0, 35.0 ],
-                    "text": "note 244000. 245000. 0.6 1. 0.05 0.61"
+                    "text": "note 237000. 236000. 0.6 1. 0.05 0.41"
                 }
             },
             {
@@ -51269,7 +51268,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1176.4, 764.0000002980232, 50.0, 22.0 ],
-                    "text": "1"
+                    "text": "6"
                 }
             },
             {
@@ -51307,7 +51306,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1126.5, 687.9999987959861, 122.0, 35.0 ],
-                    "text": "note 49098.666667 64352. 1. 1. 0.9 0.5"
+                    "text": "note 335872. 336192. 1. 1. 0.9 0.4"
                 }
             },
             {
@@ -51418,7 +51417,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1176.4, 473.3999946117401, 50.0, 22.0 ],
-                    "text": "9"
+                    "text": "7"
                 }
             },
             {
@@ -51456,7 +51455,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1126.5, 432.399993109703, 102.0, 49.0 ],
-                    "text": "note 328000. 329000. 0.6 1. 0.05 0.25"
+                    "text": "note 146000. 147000. 0.6 1. 0.05 0.92"
                 }
             },
             {
@@ -51605,7 +51604,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 739.9, 760.3999946117401, 50.0, 22.0 ],
-                    "text": "8"
+                    "text": "7"
                 }
             },
             {
@@ -51643,7 +51642,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 690.0, 684.399993109703, 122.0, 49.0 ],
-                    "text": "note 31605.333333 44128. 0.6 1. 0.95 0.28"
+                    "text": "note 375445.333333 376512. 1. 1. 0.9 0.39"
                 }
             },
             {
@@ -51828,7 +51827,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 739.9, 473.3999946117401, 50.0, 22.0 ],
-                    "text": "10"
+                    "text": "12"
                 }
             },
             {
@@ -51866,7 +51865,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 690.0, 432.399993109703, 102.0, 49.0 ],
-                    "text": "note 362637. 363726. 0.85 1. 0.95 0.47"
+                    "text": "note 193011. 194324. 1. 1. 0.8 0.5"
                 }
             },
             {
@@ -52000,90 +51999,6 @@
                         "boxes": [
                             {
                                 "box": {
-                                    "autosave": 1,
-                                    "bgmode": 0,
-                                    "border": 0,
-                                    "clickthrough": 0,
-                                    "id": "obj-7",
-                                    "maxclass": "newobj",
-                                    "numinlets": 2,
-                                    "numoutlets": 8,
-                                    "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "signal", "signal", "", "list", "int", "", "", "" ],
-                                    "patching_rect": [ 86.0, 121.0, 300.0, 100.0 ],
-                                    "save": [ "#N", "vst~", "loaduniqueid", 0, "C74_VST3:/FabFilter Pro-MB", ";" ],
-                                    "saved_attribute_attributes": {
-                                        "valueof": {
-                                            "parameter_invisible": 1,
-                                            "parameter_longname": "vst~",
-                                            "parameter_modmode": 0,
-                                            "parameter_shortname": "vst~",
-                                            "parameter_type": 3
-                                        }
-                                    },
-                                    "saved_object_attributes": {
-                                        "parameter_enable": 1,
-                                        "parameter_mappable": 0
-                                    },
-                                    "snapshot": {
-                                        "filetype": "C74Snapshot",
-                                        "version": 2,
-                                        "minorversion": 0,
-                                        "name": "snapshotlist",
-                                        "origin": "vst~",
-                                        "type": "list",
-                                        "subtype": "Undefined",
-                                        "embed": 1,
-                                        "snapshot": {
-                                            "pluginname": "FabFilter Pro-MB.vst3info",
-                                            "plugindisplayname": "Pro-MB",
-                                            "pluginsavedname": "",
-                                            "pluginsaveduniqueid": 0,
-                                            "version": 1,
-                                            "isbank": 0,
-                                            "isbase64": 1,
-                                            "blob": "1029.VMjLgv+....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCM23hQEwFVFkjKt3hK1MjKt3hKDUEaYcVUGEldAgGUqE0Qi8FMwjkKt3hKtHVRt3hKt3hKt3BTtTETs4RPt3hK2LEYwHiUP4hKt3xJt3hKt3hcLkGS48jKt3hKt3VVrk0MC4hKtnETt3hKtETPt3hKGQjKt3xLO4hKt3hKt3hKt3hKt3hKt3hKUAUatrVa3LWQD4hKt3hKt3hKtrhKt3hKt3hKt3hKt3hKt3hKAQUPiIDQt3hK18DMYUVXAEjKt3xMC4hKt3hK4wTdLshKt3hKtXFaYw1cO4hKt3VPA4hKlYDQt3hKhAkKt3hYq3hKt3hKt3hKt3hKt3hKt3hKTEzXBQEYwHiUP4hKt3hKt3hKtbyPt3hKt3hKt3hKt3hKt3hKDAUQ5kDTt3hKtrhZsgybEQjKt3hcO4hKt3hKLkGS4cyPt3hKt3hVrkkQq3hKtXlQD4hKtnETt3hK1ETPt3hK4LjKt3hKt3hKt3hKt3hKt3hKPUjdIAEMYUVXAEjKt3hKt3hKtX2St3hKt3hKt3hKt3hKt3hKP4RUP0lKA4hKtbyTjEiLVAkKt3hKq3hKt3hK1wTdLk2St3hKt3haYwVV2LjKt3hVP4hKt3VPA4hKtbDQt3hKy7jKt3hKt3hKt3hKt3hKt3hKtTETs4xZsgybEQjKt3hKt3hKt3xJt3hKt3hKt3hKt3hKt3hKtDDUAMlPD4hKtX2SzjUYgETPt3hK2LjKt3hKtjGS4wzJt3hKt3hYrkEa28jKt3haAEjKtXlQD4hKtHFTt3hKlshKt3hKt3hKt3hKt3hKt3hKtPUPiIDUjEiLVAkKt3hKt3hKt3xMC4hKt3hKt3hKt3hKt3hKtPDTEoWRP4hKt3xJp0FNyUDQt3hK18jKt3hKtvTdLk2MC4hKt3hKZwVVFshKt3hYFQjKt3hVP4hKtXWPA4hKtjyPt3hKt3hKt3hKt3hKt3hKt.UQ5kDTzjUYgETPt3hKt3hKt3hcO4hKt3hKt3hKt3hKt3hKt3hKt3hYq3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtX1Jt3hKt3hKt3hKy7jKt3hKt3hKt3hKt3hKt3BTt3hKP4RPt3hK4LjKt3hKP4hKt.kKA4hKt3hKt3hKt3RPt3hKtPjKt3hKtvyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DiLtXTVTkkZA4hKt3hKt3hKt3BOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
-                                        },
-                                        "snapshotlist": {
-                                            "current_snapshot": 0,
-                                            "entries": [
-                                                {
-                                                    "filetype": "C74Snapshot",
-                                                    "version": 2,
-                                                    "minorversion": 0,
-                                                    "name": "Pro-MB",
-                                                    "origin": "FabFilter Pro-MB.vst3info",
-                                                    "type": "VST3",
-                                                    "subtype": "MidiEffect",
-                                                    "embed": 1,
-                                                    "snapshot": {
-                                                        "pluginname": "FabFilter Pro-MB.vst3info",
-                                                        "plugindisplayname": "Pro-MB",
-                                                        "pluginsavedname": "",
-                                                        "pluginsaveduniqueid": 0,
-                                                        "version": 1,
-                                                        "isbank": 0,
-                                                        "isbase64": 1,
-                                                        "blob": "1029.VMjLgv+....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCM23hQEwFVFkjKt3hK1MjKt3hKDUEaYcVUGEldAgGUqE0Qi8FMwjkKt3hKtHVRt3hKt3hKt3BTtTETs4RPt3hK2LEYwHiUP4hKt3xJt3hKt3hcLkGS48jKt3hKt3VVrk0MC4hKtnETt3hKtETPt3hKGQjKt3xLO4hKt3hKt3hKt3hKt3hKt3hKUAUatrVa3LWQD4hKt3hKt3hKtrhKt3hKt3hKt3hKt3hKt3hKAQUPiIDQt3hK18DMYUVXAEjKt3xMC4hKt3hK4wTdLshKt3hKtXFaYw1cO4hKt3VPA4hKlYDQt3hKhAkKt3hYq3hKt3hKt3hKt3hKt3hKt3hKTEzXBQEYwHiUP4hKt3hKt3hKtbyPt3hKt3hKt3hKt3hKt3hKDAUQ5kDTt3hKtrhZsgybEQjKt3hcO4hKt3hKLkGS4cyPt3hKt3hVrkkQq3hKtXlQD4hKtnETt3hK1ETPt3hK4LjKt3hKt3hKt3hKt3hKt3hKPUjdIAEMYUVXAEjKt3hKt3hKtX2St3hKt3hKt3hKt3hKt3hKP4RUP0lKA4hKtbyTjEiLVAkKt3hKq3hKt3hK1wTdLk2St3hKt3haYwVV2LjKt3hVP4hKt3VPA4hKtbDQt3hKy7jKt3hKt3hKt3hKt3hKt3hKtTETs4xZsgybEQjKt3hKt3hKt3xJt3hKt3hKt3hKt3hKt3hKtDDUAMlPD4hKtX2SzjUYgETPt3hK2LjKt3hKtjGS4wzJt3hKt3hYrkEa28jKt3haAEjKtXlQD4hKtHFTt3hKlshKt3hKt3hKt3hKt3hKt3hKtPUPiIDUjEiLVAkKt3hKt3hKt3xMC4hKt3hKt3hKt3hKt3hKtPDTEoWRP4hKt3xJp0FNyUDQt3hK18jKt3hKtvTdLk2MC4hKt3hKZwVVFshKt3hYFQjKt3hVP4hKtXWPA4hKtjyPt3hKt3hKt3hKt3hKt3hKt.UQ5kDTzjUYgETPt3hKt3hKt3hcO4hKt3hKt3hKt3hKt3hKt3hKt3hYq3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtX1Jt3hKt3hKt3hKy7jKt3hKt3hKt3hKt3hKt3BTt3hKP4RPt3hK4LjKt3hKP4hKt.kKA4hKt3hKt3hKt3RPt3hKtPjKt3hKtvyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DiLtXTVTkkZA4hKt3hKt3hKt3BOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
-                                                    },
-                                                    "fileref": {
-                                                        "name": "Pro-MB",
-                                                        "filename": "Pro-MB_20251124.maxsnap",
-                                                        "filepath": "~/Documents/Max 9/Snapshots",
-                                                        "filepos": -1,
-                                                        "snapshotfileid": "028f66819af68f1bc97ace5a3baef3ce"
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    "text": "vst~ \"C74_VST3:/FabFilter Pro-MB\"",
-                                    "varname": "vst~",
-                                    "viewvisibility": 1
-                                }
-                            },
-                            {
-                                "box": {
                                     "id": "obj-5",
                                     "linecount": 2,
                                     "maxclass": "comment",
@@ -52143,26 +52058,14 @@
                         "lines": [
                             {
                                 "patchline": {
-                                    "destination": [ "obj-7", 0 ],
+                                    "destination": [ "obj-3", 0 ],
                                     "source": [ "obj-1", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-7", 1 ],
-                                    "source": [ "obj-4", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-3", 0 ],
-                                    "source": [ "obj-7", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
                                     "destination": [ "obj-6", 0 ],
-                                    "source": [ "obj-7", 1 ]
+                                    "source": [ "obj-4", 0 ]
                                 }
                             }
                         ]
@@ -54460,9 +54363,16 @@
             }
         ],
         "parameters": {
-            "obj-129::obj-7": [ "vst~", "vst~", 0 ],
             "obj-212": [ "live.menu[2]", "live.menu", 0 ],
             "obj-222::obj-30": [ "live.menu[3]", "live.menu", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
