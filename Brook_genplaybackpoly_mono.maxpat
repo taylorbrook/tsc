@@ -13,26 +13,46 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-6",
+                    "id": "obj-15",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 106.0, 393.0, 42.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
-                    "text": "out~ 2"
+                    "patching_rect": [ 43.0, 455.0, 110.0, 22.0 ],
+                    "text": "mc.send~ improv 8"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 218.0, 373.0, 93.0, 22.0 ],
+                    "text": "r speaker_array"
                 }
             },
             {
                 "box": {
                     "id": "obj-9",
                     "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "multichannelsignal" ],
+                    "patching_rect": [ 43.0, 410.0, 92.0, 22.0 ],
+                    "text": "mc.mixdown~ 8"
+                }
+            },
+            {
+                "box": {
+                    "attr": "activechans",
+                    "id": "obj-7",
+                    "maxclass": "attrui",
                     "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 39.0, 393.0, 42.0, 22.0 ],
-                    "text": "out~ 1"
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 218.0, 410.0, 150.0, 22.0 ]
                 }
             },
             {
@@ -999,7 +1019,8 @@
                                     "source": [ "obj-9", 0 ]
                                 }
                             }
-                        ]
+                        ],
+                        "autosave": 0
                     },
                     "patching_rect": [ 39.0, 245.0, 114.0, 22.0 ],
                     "text": "gen~"
@@ -1046,6 +1067,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 37.5, 46.0, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 1"
                 }
             }
@@ -1095,8 +1120,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "midpoints": [ 113.5, 390.0, 115.5, 390.0 ],
+                    "destination": [ "obj-9", 1 ],
                     "source": [ "obj-17", 0 ]
                 }
             },
@@ -1207,6 +1231,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "midpoints": [ 143.5, 270.0, 162.0, 270.0, 162.0, 240.0, 175.5, 240.0 ],
                     "source": [ "obj-8", 1 ]
@@ -1215,8 +1251,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
-                    "midpoints": [ 48.5, 270.0, 48.5, 270.0 ],
                     "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-9", 0 ]
                 }
             }
         ]
