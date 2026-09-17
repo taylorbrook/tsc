@@ -1,5 +1,7 @@
 # The Tensed Computer Improviser
 
+https://www.taylorbrook.info/works/tensed-computer-improviser
+
 The Tensed Computer Improviser is an open-source piece of music-generation software written and maintained by the author. This software is developed in MAX[1] with integrations of the Flucoma[2], ml.star[3], and GO[4] abstractions.
 
 Son of the Scuffed Computer Improviser (https://www.taylorbrook.info/sci)
