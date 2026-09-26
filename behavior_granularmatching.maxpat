@@ -236,7 +236,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 80.0, 141.0, 129.0, 22.0 ],
-					"text" : "r #1_grainsize"
+					"text" : "r #1_grainsize_active"
 				}
 
 			}

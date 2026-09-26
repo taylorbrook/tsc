@@ -184,7 +184,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 187.33333158493042, 232.0, 93.0, 22.0 ],
-					"text" : "s #1pan"
+					"text" : "s #1_pan"
 				}
 
 			}

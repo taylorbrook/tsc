@@ -410,8 +410,9 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 81.5, 342.0, 201.0, 22.0 ],
-                    "text": "startchan 0, bang, startchan 1, bang"
+                    "patching_rect": [ 81.5, 334.0, 300.0, 36.0 ],
+                    "text": "gain 0.5, destgain 0, startchan 0, bang, destgain 1, startchan 1, bang",
+                    "linecount": 2
                 }
             },
             {
@@ -422,7 +423,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 81.5, 378.0, 519.0, 22.0 ],
-                    "text": "fluid.bufcompose~ @source #1 @destination #1.mono @destgain 0.5 @numchans 1"
+                    "text": "fluid.bufcompose~ @source #1 @destination #1.mono @gain 0.5 @numchans 1"
                 }
             },
             {

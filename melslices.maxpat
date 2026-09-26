@@ -1950,7 +1950,7 @@
                                     "numoutlets": 3,
                                     "outlettype": [ "bang", "bang", "int" ],
                                     "patching_rect": [ 70.24607348442078, 324.0, 73.0, 22.0 ],
-                                    "text": "uzi 2 base 0"
+                                    "text": "uzi 2 0"
                                 }
                             },
                             {
@@ -3339,6 +3339,12 @@
                                     "destination": [ "obj-3", 0 ],
                                     "midpoints": [ 62.5, 84.0, 62.5, 84.0 ],
                                     "source": [ "obj-9", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-67", 0 ],
+                                    "source": [ "obj-108", 0 ]
                                 }
                             }
                         ]

@@ -1952,7 +1952,7 @@
                                     "numoutlets": 3,
                                     "outlettype": [ "bang", "bang", "int" ],
                                     "patching_rect": [ 70.24607348442078, 324.0, 73.0, 22.0 ],
-                                    "text": "uzi 2 base 0"
+                                    "text": "uzi 2 0"
                                 }
                             },
                             {
