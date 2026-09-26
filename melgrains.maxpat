@@ -6064,6 +6064,28 @@
                     "patching_rect": [ 217.3598296046257, 98.19635372638703, 520.0, 20.0 ],
                     "text": "corpus snapshot: save / load (sent from 1_TCI p corpusio as the chosen folder path)"
                 }
+            },
+            {
+                "box": {
+                    "id": "obj-208",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1456.0, 438.88661912441256, 110.0, 22.0 ],
+                    "text": "append #1_livestd"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-209",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "float", "bang" ],
+                    "patching_rect": [ 1576.0, 438.88661912441256, 190.0, 22.0 ],
+                    "text": "buffer~ #1_livestd @samps 30"
+                }
             }
         ],
         "lines": [
@@ -6339,7 +6361,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 0 ],
+                    "destination": [ "obj-208", 0 ],
                     "midpoints": [ 1265.5, 408.0, 1265.5, 408.0 ],
                     "source": [ "obj-34", 0 ]
                 }
@@ -6536,7 +6558,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-10", 0 ],
+                    "destination": [ "obj-208", 0 ],
                     "midpoints": [ 1288.5, 453.0, 1265.5, 453.0 ],
                     "source": [ "obj-7", 0 ]
                 }
@@ -6614,6 +6636,12 @@
                     "destination": [ "obj-50", 0 ],
                     "midpoints": [ 97.5, 129.0, 15.0, 129.0, 15.0, 419.0, 38.479809994697575, 419.0 ],
                     "source": [ "obj-207", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-208", 0 ]
                 }
             }
         ],
