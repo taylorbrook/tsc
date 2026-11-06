@@ -190,7 +190,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 0,
 					"patching_rect" : [ 185.5, 566.0, 142.0, 22.0 ],
-					"text" : "notemessage #1"
+					"text" : "notemessage #1 #2"
 				}
 
 			}
